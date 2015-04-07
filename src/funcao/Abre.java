@@ -16,6 +16,7 @@ public class Abre {
     public static JFrame sysPrincipal;
     public static JFrame novoUsario;
     public static JInternalFrame novoPaciente;
+    public static JInternalFrame adicionalPaciente;
 
     public static void sysPrincipal() {
         if (sysPrincipal == null || sysPrincipal.isVisible() == false) {
@@ -47,4 +48,17 @@ public class Abre {
             novoPaciente.toFront();
         }
     }//cad_paciente
+    
+    //Abre tela para dados adicionais do pacientes
+    public static void adicional_paciente() {
+        if (adicionalPaciente == null || adicionalPaciente.isVisible() == false) {
+            adicionalPaciente = new visual.dadosPacientes();
+            visual.SysPrincipal.centro.add(adicionalPaciente);
+            adicionalPaciente.setVisible(true);
+        }//cad_paciente
+        else {
+            adicionalPaciente.toFront();
+        }
+    }//cad_paciente
+    
 }

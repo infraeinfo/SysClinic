@@ -6,6 +6,8 @@
 package funcao;
 
 import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
+import  static funcao.Abre.cad_paciente;
 
 /**
  *
@@ -14,6 +16,7 @@ import javax.swing.JFrame;
 public class Abre {
     public static JFrame sysPrincipal;
     public static JFrame novoUsario;
+    public static JInternalFrame novoPaciente;
 
     public static void sysPrincipal() {
         if (sysPrincipal == null || sysPrincipal.isVisible() == false) {
@@ -31,6 +34,17 @@ public class Abre {
         }//reg_usuario
         else {
             novoUsario.toFront();
+        }
+    }//reg_usuario
+    
+    public static void cad_paciente() {
+        if (novoPaciente == null || novoPaciente.isVisible() == false) {
+            novoPaciente = new visual.cadPaciente();
+            visual.SysPrincipal.centro.add(novoPaciente);
+            novoPaciente.setVisible(true);
+        }//reg_usuario
+        else {
+            novoPaciente.toFront();
         }
     }//reg_usuario
 

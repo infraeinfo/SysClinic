@@ -17,6 +17,7 @@ public class Abre {
     public static JFrame novoUsario;
     public static JInternalFrame novoPaciente;
     public static JInternalFrame adicionalPaciente;
+    public static JInternalFrame novoMedico;
 
     public static void sysPrincipal() {
         if (sysPrincipal == null || sysPrincipal.isVisible() == false) {
@@ -60,5 +61,18 @@ public class Abre {
             adicionalPaciente.toFront();
         }
     }//cad_paciente
+    
+    //Abre a janela para Cadastro de Medicos
+        public static void cad_medico() {
+        if (novoMedico == null || novoMedico.isVisible() == false) {
+            novoMedico = new visual.cadMedico();
+            visual.SysPrincipal.centro.add(novoMedico);
+            novoMedico.setVisible(true);
+        }//cad_medico
+        else {
+            novoMedico.toFront();
+        }
+    }//janela cad_medicos
+    
     
 }

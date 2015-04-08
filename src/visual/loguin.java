@@ -77,7 +77,7 @@ public class loguin extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Acesso para:");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Recepção", "Secretaria", "Medico", "ADM" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Recepção", "Secretaria", "Medico", "Administrativo", "Desenvolvedor" }));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

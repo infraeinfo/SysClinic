@@ -41,7 +41,7 @@ public class statusConsulta extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setTitle(".::Status de Consultas::.(Aguardando Consulta...)");
 
-        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -57,6 +57,7 @@ public class statusConsulta extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Pacientes:");
 
         jButton1.setText("Buscar");

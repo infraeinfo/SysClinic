@@ -52,7 +52,7 @@ public class cadConsulta extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setTitle(".::Cadastro de Consultas::.");
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         jButton1.setText("Fechar");
@@ -63,21 +63,27 @@ public class cadConsulta extends javax.swing.JInternalFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Paciente:");
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Medico:");
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Data Consulta:");
 
         jLabel4.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Horario Consulta:");
 
         jLabel5.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Tipo de Consulta:");
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Sintomas:");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Grave", "Padrão", "Normal" }));
@@ -112,9 +118,8 @@ public class cadConsulta extends javax.swing.JInternalFrame {
                             .addComponent(jLabel5))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, 154, Short.MAX_VALUE)
-                                .addComponent(jDateChooser1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jComboBox1, 0, 282, Short.MAX_VALUE)
+                            .addComponent(jDateChooser1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE)
                             .addComponent(jTextField1))

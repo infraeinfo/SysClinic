@@ -226,10 +226,6 @@
                 </Component>
                 <Component class="javax.swing.JToolBar$Separator" name="jSeparator1">
                 </Component>
-                <Component class="javax.swing.JToolBar$Separator" name="jSeparator2">
-                </Component>
-                <Component class="javax.swing.JToolBar$Separator" name="jSeparator3">
-                </Component>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Horario:"/>

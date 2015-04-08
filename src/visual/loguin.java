@@ -41,8 +41,6 @@ public class loguin extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JToolBar.Separator();
-        jSeparator2 = new javax.swing.JToolBar.Separator();
-        jSeparator3 = new javax.swing.JToolBar.Separator();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -90,8 +88,6 @@ public class loguin extends javax.swing.JFrame {
         jLabel6.setText("01/01/2015");
         jToolBar1.add(jLabel6);
         jToolBar1.add(jSeparator1);
-        jToolBar1.add(jSeparator2);
-        jToolBar1.add(jSeparator3);
 
         jLabel7.setText("Horario:");
         jToolBar1.add(jLabel7);
@@ -259,8 +255,6 @@ public class loguin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JToolBar.Separator jSeparator1;
-    private javax.swing.JToolBar.Separator jSeparator2;
-    private javax.swing.JToolBar.Separator jSeparator3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables

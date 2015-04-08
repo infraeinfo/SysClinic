@@ -51,18 +51,21 @@ public class dadosPacientes extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setTitle(".::Dados Adicionais do Paciente::.");
 
-        jPanel1.setBackground(new java.awt.Color(255, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel2.setBackground(new java.awt.Color(255, 153, 153));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Contato - 01", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Contato - 01", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Celular Contato:");
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Grau de Parentesco:");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Amigo", "Visinho", "Familia", "Parente" }));
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nome Contato:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -105,15 +108,18 @@ public class dadosPacientes extends javax.swing.JInternalFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(255, 153, 153));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Contato - 02", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Contato - 01", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 1, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Celular Contato:");
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Grau de Parentesco:");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Amigo", "Visinho", "Familia", "Parente" }));
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Nome Contato:");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

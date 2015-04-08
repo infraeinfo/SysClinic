@@ -54,7 +54,7 @@ public class cadUsuario extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(".:: SysClinic - Cadastrar Novo Usuario ::.");
 
-        jPanel1.setBackground(new java.awt.Color(240, 190, 135));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jButton1.setText("Fechar");
@@ -64,15 +64,19 @@ public class cadUsuario extends javax.swing.JFrame {
             }
         });
 
-        jPanel2.setBackground(new java.awt.Color(240, 190, 135));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dados do Funcionario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dados do Funcionario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Celular:");
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("CPF:");
 
+        jLabel1.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nome Completo:");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Administrativo", "Recepção", "Medico", "Secretaria", "Desenvolvedor" }));
@@ -83,6 +87,7 @@ public class cadUsuario extends javax.swing.JFrame {
         });
 
         jLabel7.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Função:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -90,7 +95,7 @@ public class cadUsuario extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap(26, Short.MAX_VALUE)
+                .addContainerGap(19, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jLabel4)
@@ -108,7 +113,7 @@ public class cadUsuario extends javax.swing.JFrame {
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGap(0, 251, Short.MAX_VALUE))
+                            .addGap(0, 0, Short.MAX_VALUE))
                         .addComponent(jTextField1)))
                 .addGap(24, 24, 24))
         );
@@ -134,16 +139,19 @@ public class cadUsuario extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel4.setBackground(new java.awt.Color(240, 190, 135));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Usuario do Sistema", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dados do Funcionario", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel16.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Usuario:");
 
         jLabel18.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Confiramar Senha:");
 
         jLabel17.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Senha:");
 
         jButton2.setText("Alterar Senha");

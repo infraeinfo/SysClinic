@@ -74,44 +74,54 @@ public class cadPaciente extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setTitle(".::Cadastro de Pacientes::.");
 
-        jPanel1.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.focus"));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
-        jPanel2.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.focus"));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Dados do Paciente", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Endereço Logradouro", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Celular:");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "AB+", "A+", "B+", "0+", "AB-", "A-", "B-", "O-" }));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nome Completo:");
 
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("CPF:");
 
         jLabel2.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("RG:");
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Telefone:");
 
         jLabel4.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Tipo Sanguineo:");
 
         jLabel14.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Estado Civil:");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Casado(A)", "Solteiro(A)", "Viuvo(A)", "União Estável", "Divorciado(A)" }));
 
         jLabel15.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Data Nasc:");
 
         jLabel16.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Altura:");
 
         jLabel17.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Peso KG:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -123,7 +133,9 @@ public class cadPaciente extends javax.swing.JInternalFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4)
-                        .addGap(171, 171, 171)
+                        .addGap(0, 0, 0)
+                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, 0)
                         .addComponent(jLabel14)
                         .addGap(0, 0, 0)
                         .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -134,16 +146,14 @@ public class cadPaciente extends javax.swing.JInternalFrame {
                             .addComponent(jTextField1))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jLabel2)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jLabel5)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                                    .addComponent(jLabel2)
+                                    .addGap(0, 0, 0)
+                                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                                    .addComponent(jLabel5)
+                                    .addGap(0, 0, 0)
+                                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGap(0, 0, 0)
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(jPanel2Layout.createSequentialGroup()
@@ -205,30 +215,37 @@ public class cadPaciente extends javax.swing.JInternalFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.focus"));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Endereço Logradouro", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(0, 51, 255))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Endereço Logradouro", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 3, 10), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel9.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("CEP:");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel7.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Endereço:");
 
         jLabel13.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Estado:");
 
         jLabel10.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Complemento:");
 
         jLabel8.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Nº:");
 
         jLabel11.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Bairro:");
 
         jLabel12.setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Cidade:");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

@@ -55,13 +55,7 @@ public class SysPrincipal extends javax.swing.JFrame {
         jSeparator9 = new javax.swing.JToolBar.Separator();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jSeparator11 = new javax.swing.JToolBar.Separator();
         jSeparator16 = new javax.swing.JToolBar.Separator();
-        jSeparator15 = new javax.swing.JToolBar.Separator();
-        jSeparator17 = new javax.swing.JToolBar.Separator();
-        jSeparator14 = new javax.swing.JToolBar.Separator();
-        jSeparator12 = new javax.swing.JToolBar.Separator();
-        jSeparator10 = new javax.swing.JToolBar.Separator();
         jButton2 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu6 = new javax.swing.JMenu();
@@ -190,6 +184,7 @@ public class SysPrincipal extends javax.swing.JFrame {
                 .addComponent(centro))
         );
 
+        jToolBar2.setBackground(new java.awt.Color(153, 204, 255));
         jToolBar2.setFloatable(false);
         jToolBar2.setRollover(true);
 
@@ -200,6 +195,8 @@ public class SysPrincipal extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(153, 0, 0));
         jLabel2.setText("usuario01");
         jToolBar2.add(jLabel2);
+
+        jSeparator7.setEnabled(false);
         jToolBar2.add(jSeparator7);
 
         jLabel3.setText("Empresa:");
@@ -236,14 +233,9 @@ public class SysPrincipal extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(153, 0, 0));
         jLabel8.setText("00:00:00");
         jToolBar2.add(jLabel8);
-        jToolBar2.add(jSeparator11);
         jToolBar2.add(jSeparator16);
-        jToolBar2.add(jSeparator15);
-        jToolBar2.add(jSeparator17);
-        jToolBar2.add(jSeparator14);
-        jToolBar2.add(jSeparator12);
-        jToolBar2.add(jSeparator10);
 
+        jButton2.setBackground(new java.awt.Color(153, 204, 255));
         jButton2.setForeground(new java.awt.Color(255, 0, 51));
         jButton2.setText("Sair ");
         jButton2.setFocusable(false);
@@ -385,7 +377,7 @@ public class SysPrincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(0, 0, 0)
                 .addComponent(jToolBar2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0))
         );
@@ -529,14 +521,8 @@ public class SysPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JToolBar.Separator jSeparator1;
-    private javax.swing.JToolBar.Separator jSeparator10;
-    private javax.swing.JToolBar.Separator jSeparator11;
-    private javax.swing.JToolBar.Separator jSeparator12;
     private javax.swing.JToolBar.Separator jSeparator13;
-    private javax.swing.JToolBar.Separator jSeparator14;
-    private javax.swing.JToolBar.Separator jSeparator15;
     private javax.swing.JToolBar.Separator jSeparator16;
-    private javax.swing.JToolBar.Separator jSeparator17;
     private javax.swing.JToolBar.Separator jSeparator2;
     private javax.swing.JToolBar.Separator jSeparator3;
     private javax.swing.JToolBar.Separator jSeparator4;

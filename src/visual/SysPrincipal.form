@@ -197,7 +197,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Component id="jToolBar2" min="-2" pref="30" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
           </Group>
@@ -344,6 +344,9 @@
     </Container>
     <Container class="javax.swing.JToolBar" name="jToolBar2">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="floatable" type="boolean" value="false"/>
         <Property name="rollover" type="boolean" value="true"/>
       </Properties>
@@ -367,6 +370,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JToolBar$Separator" name="jSeparator7">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
@@ -438,22 +444,13 @@
             <Property name="text" type="java.lang.String" value="00:00:00"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator11">
-        </Component>
         <Component class="javax.swing.JToolBar$Separator" name="jSeparator16">
-        </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator15">
-        </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator17">
-        </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator14">
-        </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator12">
-        </Component>
-        <Component class="javax.swing.JToolBar$Separator" name="jSeparator10">
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="99" type="rgb"/>
+            </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="0" red="ff" type="rgb"/>
             </Property>

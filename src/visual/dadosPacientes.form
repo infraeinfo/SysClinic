@@ -37,7 +37,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="99" red="ff" type="rgb"/>
+          <Color blue="cc" green="99" red="0" type="rgb"/>
         </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
@@ -93,13 +93,13 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="ff" type="rgb"/>
+              <Color blue="cc" green="99" red="0" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                 <TitledBorder title="Contato - 01">
                   <Font PropertyName="font" name="Dialog" size="10" style="1"/>
-                  <Color PropertyName="color" blue="ff" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
                 </TitledBorder>
               </Border>
             </Property>
@@ -159,6 +159,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Celular Contato:"/>
               </Properties>
             </Component>
@@ -166,6 +169,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Grau de Parentesco:"/>
               </Properties>
             </Component>
@@ -186,6 +192,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Nome Contato:"/>
               </Properties>
             </Component>
@@ -194,13 +203,13 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="ff" type="rgb"/>
+              <Color blue="cc" green="99" red="0" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Contato - 02">
+                <TitledBorder title="Contato - 01">
                   <Font PropertyName="font" name="Dialog" size="10" style="1"/>
-                  <Color PropertyName="color" blue="ff" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
                 </TitledBorder>
               </Border>
             </Property>
@@ -260,6 +269,9 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Celular Contato:"/>
               </Properties>
             </Component>
@@ -267,6 +279,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Grau de Parentesco:"/>
               </Properties>
             </Component>
@@ -287,6 +302,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Nome Contato:"/>
               </Properties>
             </Component>

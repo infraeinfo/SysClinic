@@ -34,7 +34,8 @@ public class historicoConsultas extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setTitle(".::Históricos de Consultas::.(Já Realizadas - com alta médica)");
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 204));
+        jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         jButton1.setText("Fechar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -48,7 +49,7 @@ public class historicoConsultas extends javax.swing.JInternalFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(575, Short.MAX_VALUE)
+                .addContainerGap(571, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );

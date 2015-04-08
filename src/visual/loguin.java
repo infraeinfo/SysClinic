@@ -37,6 +37,14 @@ public class loguin extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
+        jToolBar1 = new javax.swing.JToolBar();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JToolBar.Separator();
+        jSeparator2 = new javax.swing.JToolBar.Separator();
+        jSeparator3 = new javax.swing.JToolBar.Separator();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -71,6 +79,27 @@ public class loguin extends javax.swing.JFrame {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "<selecione>", "Recepção", "Secretaria", "Medico", "Administrativo", "Desenvolvedor" }));
 
+        jToolBar1.setBackground(javax.swing.UIManager.getDefaults().getColor("ComboBox.selectionBackground"));
+        jToolBar1.setFloatable(false);
+        jToolBar1.setRollover(true);
+
+        jLabel5.setText("Data Local:");
+        jToolBar1.add(jLabel5);
+
+        jLabel6.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel6.setText("01/01/2015");
+        jToolBar1.add(jLabel6);
+        jToolBar1.add(jSeparator1);
+        jToolBar1.add(jSeparator2);
+        jToolBar1.add(jSeparator3);
+
+        jLabel7.setText("Horario:");
+        jToolBar1.add(jLabel7);
+
+        jLabel8.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel8.setText("00:00:00");
+        jToolBar1.add(jLabel8);
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -97,6 +126,7 @@ public class loguin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
+            .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jButton1, jButton3});
@@ -120,7 +150,8 @@ public class loguin extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton1))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton3});
@@ -220,9 +251,17 @@ public class loguin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JToolBar.Separator jSeparator1;
+    private javax.swing.JToolBar.Separator jSeparator2;
+    private javax.swing.JToolBar.Separator jSeparator3;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
 }

@@ -5,6 +5,11 @@
  */
 package visual;
 
+import funcao.ConectaBD;
+import java.sql.Connection;
+import java.sql.SQLException;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author TADS
@@ -17,6 +22,7 @@ public class loguin extends javax.swing.JFrame {
     public loguin() {
         initComponents();
     }
+    public Connection con;
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -198,8 +204,14 @@ public class loguin extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       funcao.Abre.sysPrincipal();
-       this.dispose();
+        try {
+            con = ConectaBD.conecta("sysclinic");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Erro de SQL" + ex.getMessage());
+        }
+
+        funcao.Abre.sysPrincipal();
+        this.dispose();
 //       funcao.Abre.logoffLoguin();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -215,7 +227,7 @@ public class loguin extends javax.swing.JFrame {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
 //                if ("Nimbus".equals(info.getName())) {
-                 if ("Windows".equals(info.getName())) {
+                if ("Windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
